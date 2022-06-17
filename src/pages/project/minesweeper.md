@@ -12,7 +12,7 @@ tags:
   - NodeJS
 ---
 
-*You can find a live version [**here**](https://cynicade.xyz/minesweeper) and the code [**here**](https://github.com/cynicade/react-redux-minesweeper)*
+*You can find a live version [**here**](https://cynicade.xyz/minesweeper) and the code [**here**](https://github.com/cynicade/react-redux-minesweeper)*   
 
 First I had an idea to build minesweeper in React. I quickly realised that I'd have to do a lot of prop-drilling to get multiple cells to
 open with one click, so I decided to use Redux for state management. I had only used it in once in a different project before and I didn't
