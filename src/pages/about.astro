@@ -1,0 +1,79 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer/index.jsx';
+import Nav from '../components/Nav/index.jsx';
+---
+
+<html lang="en">
+
+<head>
+	<MainHead title="About" description="About me" />
+	<style lang="scss">
+		.heroImg {
+			height: 30rem;
+			width: auto;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			overflow: hidden;
+			background-image: url("https://cynicade.xyz/static/img/me.jpg");
+		}
+
+		.bio {
+			font-size: var(--f-u1);
+			line-height: 2;
+		}
+	</style>
+</head>
+
+<body>
+	<Nav />
+	<div class="wrapper">
+		<h1>About me</h1>
+		<div class="heroImg">
+		</div>
+		<div class="bio wrapper wrapper__readable mt8">
+			<p>
+				Hi!
+			</p>
+			<p>Thanks for checking out my website. I'm not very good at talking about myself, but I'll give it a
+				go.
+			</p>
+			<br />
+			<p>
+				Being a massive technology nerd, I've been fascinated by computers from a very young age. When it was
+				time
+				to go to university, I was still not very confident in my decisions and despite wanting to pursue
+				Computer Science,
+				my parents convinced me to "get a real profession" 😂, so I went to university for Chemistry, which I
+				also enjoyed in school. While working on my bachelor's thesis at University of Patras in Greece
+				(it was on computational/theoretical/quantum chemistry), I realised that I really don't want to do that
+				for a living and got a little sad 😔. I really liked programming, but I couldn't care less if X molecule
+				could theoretically exist in some conditions Y blah blah...
+			</p>
+			<br />
+			<p>
+				So after spending a few months studying web development, I got an opportunity to come to the Netherlands
+				and
+				study Computer Science at Radboud University, which I was very excited about.
+			</p>
+			<p>
+				I've spent a lot of time exploring different programming languages and technologies, mostly focused on
+				full stack
+				web development and it only keeps getting more and more fun, so I was certain that I want to make a
+				career out of it. Not just to pay my rent, but also because I want to be the best developer I can be,
+				and
+				I feel like working in a professional environment with other developers who have different levels of
+				experience
+				than me is one of the best, if not the best way to achieve that.
+			</p>
+			<br />
+			<p>
+				So here I am, finally feeling confident enough in my skills to look for a job. Wish me luck! 😊
+			</p>
+		</div>
+	</div>
+	<Footer />
+</body>
+
+</html>
