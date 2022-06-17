@@ -21,7 +21,8 @@ I used Go for the backend with the Fiber framework, which is inspired by the Exp
 
 There's authentication using JWTs and full CRUD functionality for the todos.   
 
-*"Why is there no live version of this?"* I hear you ask. Well, because for some reason it's broken 😂. If you clone the repos for the backend and the frontend
+*"Why is there no live version of this?"* I hear you ask. Well, because for some reason the live version breaks 😂.
+If you clone the repos for the backend and the frontend
 it works fine locally however, I promise. You need a PostgreSQL database running and to set some things in a .env file. It's probably a simple fix and I'll get around to fixing it sometime, but I'm more focused on other things at the moment.   
 
 And because probably nobody is going to go through the trouble, here's a [**short demo**](https://youtu.be/IgKS57lCiew).
