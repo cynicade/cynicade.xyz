@@ -12,7 +12,7 @@ tags:
   - MongoDB
 ---
 
-_You can find the live version [**here**](https://cynicade.xyz/urls)_
+_You can find the live version [**here**](https://cynicade.xyz/urls) and the code [**here**](https://github.com/cynicade/urlshortener)_
 
 A simple url shortener with a React front-end I built in a couple hours. As with every project I build, I wanted to learn something new with this one,
 so I used TailwindCSS for my styling.
